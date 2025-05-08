@@ -1,0 +1,7 @@
+{
+  "name": "link-checker-vercel",
+  "version": "1.0.0",
+  "description": "Check a list of URLs for broken links using Vercel Serverless Functions",
+  "main": "api/check-links.js",
+  "type": "module"
+}
