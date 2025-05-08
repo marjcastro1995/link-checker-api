@@ -41,6 +41,8 @@ export default async (req, res) => {
     })
   );
 
+  console.log("from github", results);
+
   const broken = results.filter((r) => !r.ok);
   res.status(200).json(broken);
 };
